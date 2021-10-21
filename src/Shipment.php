@@ -64,8 +64,6 @@ class Shipment extends Api
 	}
 
     /**
-     * @deprecated
-     * @see https://dev.ukrposhta.ua/uploads/Status-tracking-API-27052021.pdf
      *
      * @param string $barcodeOrUuid
      * @return mixed|\Psr\Http\Message\ResponseInterface
