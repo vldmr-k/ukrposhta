@@ -20,7 +20,7 @@ class Group extends Api
             return $url . '/' . $shipmentGroupUUID;
         });
 
-        return $this->send($url, $params, 'GET');
+        return $this->send($url, null, 'GET');
     }
 
     /**
